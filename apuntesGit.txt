@@ -1,0 +1,7 @@
+1_ Iniciar GIT en una carpeta
+Posicionarse en la carpeta deseada y ejecutar " git init " . dentro de la carpeta se va a crear una carpeta oculta
+llamada " .git " alli tendra toda la configuración del GITproyecto
+2_ Cambiar ( MAIN o MASTER {Nombre de la rama principal}) Tenemos que ejecutar " git congfig --global init.defaultBranch nombre_cualqueira", luego borrar la carpeta oculta y ejecutar " git init "
+3_ Usuario ( git config --global user.name "nombre" ) (--global puede ir o no)
+4_ Email ( git config --global user.email "email" ) (--global puede ir o no)
+5_
