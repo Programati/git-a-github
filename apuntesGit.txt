@@ -4,4 +4,5 @@ llamada " .git " alli tendra toda la configuración del GITproyecto
 2_ Cambiar ( MAIN o MASTER {Nombre de la rama principal}) Tenemos que ejecutar " git congfig --global init.defaultBranch nombre_cualqueira", luego borrar la carpeta oculta y ejecutar " git init "
 3_ Usuario ( git config --global user.name "nombre" ) (--global puede ir o no)
 4_ Email ( git config --global user.email "email" ) (--global puede ir o no)
-5_¡Hola freeCodeCamp!
+5_Comando para asociar editores de texto a GIT ( git config --global core.editor "code --wait" o "ruta/ejecutableDelEditor --wait")
+
