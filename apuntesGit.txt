@@ -6,3 +6,5 @@ llamada " .git " alli tendra toda la configuración del GITproyecto
 4_ Email ( git config --global user.email "email" ) (--global puede ir o no)
 5_Comando para asociar editores de texto a GIT ( git config --global core.editor "code --wait" o "ruta/ejecutableDelEditor --wait")
 6_Comando para editar una descripcion del ultimo commit ( git commit --amend )
+7_ Revertir o quitar el ultimo commit realizado ( git reset --soft HEAD~1 )
+8_
