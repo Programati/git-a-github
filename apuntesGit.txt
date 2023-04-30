@@ -7,4 +7,7 @@ llamada " .git " alli tendra toda la configuración del GITproyecto
 5_Comando para asociar editores de texto a GIT ( git config --global core.editor "code --wait" o "ruta/ejecutableDelEditor --wait")
 6_Comando para editar una descripcion del ultimo commit ( git commit --amend )
 7_ Revertir o quitar el ultimo commit realizado ( git reset --soft HEAD~1 )
-8_Ramas ( git branch )
+8_Crear Ramas ( git branch " nombre-de-la-rama" ) en este caso solo se va a crear y para acceder
+vamos a tener que escribir ( git checkout "nombre-de-la-rama" ). Pero si queremos hacer
+las dos cosas juntas ( git checkout -b "nombre-de-la-rama" ) creamos y nos posicionamos dentro de larama
+9_
