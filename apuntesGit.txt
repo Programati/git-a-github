@@ -13,3 +13,4 @@ las dos cosas juntas ( git checkout -b "nombre-de-la-rama" ) creamos y nos posic
 9_Para cambiar el nombre de una rama ( git branch -m "nombre-nuevo"). Pirmero nos posicionamos dentro de la rama
 Tambien lo podemos hacer desde cualquier rama (git branch -m "nombre-rama-a-cambiar" "nombre-nuevo" )
 10 Borrar una rama ( git branch -d "nombre-rama" ). Solo para repositorios locales
+No hay que estar en la rama que estamos eliminando, siempre desde otra. La MAIN no se puede eliminar
