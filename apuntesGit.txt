@@ -12,8 +12,8 @@ vamos a tener que escribir ( git checkout "nombre-de-la-rama" ). Pero si queremo
 las dos cosas juntas ( git checkout -b "nombre-de-la-rama" ) creamos y nos posicionamos dentro de larama
 9_Para cambiar el nombre de una rama ( git branch -m "nombre-nuevo"). Pirmero nos posicionamos dentro de la rama
 Tambien lo podemos hacer desde cualquier rama (git branch -m "nombre-rama-a-cambiar" "nombre-nuevo" )
-10 Borrar una rama ( git branch -d "nombre-rama" ). Solo para repositorios locales
+10_Borrar una rama ( git branch -d "nombre-rama" ). Solo para repositorios locales
 No hay que estar en la rama que estamos eliminando, siempre desde otra. La MAIN no se puede eliminar
-11_ Fusionar ramas, para ello antes hay que estar posicionado en la rama principal o MAIN.
+11_ Fusionar ramas, para ello antes hay que estar posicionado en la rama que recibe los cambios o en la MAIN.
 comando ( git merge "nombre-rama") vamos a fusionar desde MAIN la rama que elegimos, lo que va a hacer es agregar todo lo que tiene la rama a la rama MAIN
 12_ Mostrar commit en una sola linea ( git log --oneline )
