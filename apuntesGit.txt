@@ -8,3 +8,4 @@ llamada " .git " alli tendra toda la configuración del GITproyecto
 6_Comando para editar una descripcion del ultimo commit ( git commit --amend )
 7_ Revertir o quitar el ultimo commit realizado ( git reset --soft HEAD~1 )
 8_Ramas ( git branch )
+Hola JavaScript
