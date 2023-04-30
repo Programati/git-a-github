@@ -16,3 +16,4 @@ Tambien lo podemos hacer desde cualquier rama (git branch -m "nombre-rama-a-camb
 No hay que estar en la rama que estamos eliminando, siempre desde otra. La MAIN no se puede eliminar
 11_ Fusionar ramas, para ello antes hay que estar posicionado en la rama principal o MAIN.
 comando ( git merge "nombre-rama") vamos a fusionar desde MAIN la rama que elegimos, lo que va a hacer es agregar todo lo que tiene la rama a la rama MAIN
+12_ Mostrar commit en una sola linea ( git log --oneline )
