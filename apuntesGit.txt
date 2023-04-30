@@ -1,3 +1,4 @@
+Soy la rama JS
 1_ Iniciar GIT en una carpeta
 Posicionarse en la carpeta deseada y ejecutar " git init " . dentro de la carpeta se va a crear una carpeta oculta
 llamada " .git " alli tendra toda la configuración del GITproyecto
@@ -17,3 +18,6 @@ No hay que estar en la rama que estamos eliminando, siempre desde otra. La MAIN 
 11_ Fusionar ramas, para ello antes hay que estar posicionado en la rama que recibe los cambios o en la MAIN.
 comando ( git merge "nombre-rama") vamos a fusionar desde MAIN la rama que elegimos, lo que va a hacer es agregar todo lo que tiene la rama a la rama MAIN
 12_ Mostrar commit en una sola linea ( git log --oneline )
+13_ Para fucuionar ramas en conflictos, podemos elegir desde el editor qué parte vamos a agregar
+puede ser una sola, o las dos, ademas agreando y quitando, podemos ponerle uno arriba de otro según combinemos
+Luego vamos a la consola y ponemos ( git --continue ) para hacer un commit normal
