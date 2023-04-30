@@ -11,3 +11,4 @@ llamada " .git " alli tendra toda la configuración del GITproyecto
 vamos a tener que escribir ( git checkout "nombre-de-la-rama" ). Pero si queremos hacer
 las dos cosas juntas ( git checkout -b "nombre-de-la-rama" ) creamos y nos posicionamos dentro de larama
 9_Para cambiar el nombre de una rama ( git branch -m "nombre-nuevo"). Pirmero nos posicionamos dentro de la rama
+Tambien lo podemos hacer desde cualquier rama (git branch -m "nombre-rama-a-cambiar" "nombre-nuevo" )
