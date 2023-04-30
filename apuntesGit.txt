@@ -10,4 +10,4 @@ llamada " .git " alli tendra toda la configuración del GITproyecto
 8_Crear Ramas ( git branch " nombre-de-la-rama" ) en este caso solo se va a crear y para acceder
 vamos a tener que escribir ( git checkout "nombre-de-la-rama" ). Pero si queremos hacer
 las dos cosas juntas ( git checkout -b "nombre-de-la-rama" ) creamos y nos posicionamos dentro de larama
-9_
+9_Para cambiar el nombre de una rama ( git branch -m "nombre-nuevo"). Pirmero nos posicionamos dentro de la rama
