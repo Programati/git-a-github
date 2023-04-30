@@ -15,3 +15,4 @@ Tambien lo podemos hacer desde cualquier rama (git branch -m "nombre-rama-a-camb
 10 Borrar una rama ( git branch -d "nombre-rama" ). Solo para repositorios locales
 No hay que estar en la rama que estamos eliminando, siempre desde otra. La MAIN no se puede eliminar
 11_ Fusionar ramas, para ello antes hay que estar posicionado en la rama principal o MAIN.
+Estoy aprendiendo GIT
