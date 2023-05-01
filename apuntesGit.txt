@@ -26,3 +26,5 @@ Luego volvemos a la rama MAIN ( git pull origin main )
 16_ Enviar mi repositorio remoto a un repositorio limpio a github, primero hay que crear un repositorio en GitHub, sólo con su nombre y anda más.
 Luego en GIT ponemos ( git remote add origin "link http" )
 17_Para clonar un repositorio de github a tu repositorio local ( git clone "https" )
+18_ Eliminar una rama desde consola hacia github ( git push origin -d "nombre de la rama")
+19_Ver las ramas tanto local como remota ( git branch -a )
