@@ -1,4 +1,3 @@
-Soy la rama JS
 1_ Iniciar GIT en una carpeta
 Posicionarse en la carpeta deseada y ejecutar " git init " . dentro de la carpeta se va a crear una carpeta oculta
 llamada " .git " alli tendra toda la configuración del GITproyecto
