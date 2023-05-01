@@ -24,3 +24,5 @@ Luego vamos a la consola y ponemos ( git --continue ) para hacer un commit norma
 14_Para subir un commit a GitHug ( git push origin main )
 15_ Para bajar cambios desde github ( git checkout origin/main ) vemos los cambios dentro de la rama de GITHUB
 Luego volvemos a la rama MAIN ( git pull origin main )
+16_ Enviar mi repositorio remoto a un repositorio limpio a github, primero hay que crear un repositorio en GitHub, sólo con su nombre y anda más.
+Luego en GIT ponemos ( git remote add origin "link http" )
