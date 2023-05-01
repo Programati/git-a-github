@@ -21,3 +21,6 @@ comando ( git merge "nombre-rama") vamos a fusionar desde MAIN la rama que elegi
 13_ Para fucuionar ramas en conflictos, podemos elegir desde el editor qué parte vamos a agregar
 puede ser una sola, o las dos, ademas agreando y quitando, podemos ponerle uno arriba de otro según combinemos
 Luego vamos a la consola y ponemos ( git --continue ) para hacer un commit normal
+14_Para subir un commit a GitHug ( git push origin main )
+15_ Para bajar cambios desde github ( git checkout origin/main ) vemos los cambios dentro de la rama de GITHUB
+Luego volvemos a la rama MAIN ( git pull origin main )
