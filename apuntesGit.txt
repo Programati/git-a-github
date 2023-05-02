@@ -1,7 +1,8 @@
 1_ Iniciar GIT en una carpeta
 Posicionarse en la carpeta deseada y ejecutar " git init " . dentro de la carpeta se va a crear una carpeta oculta
 llamada " .git " alli tendra toda la configuración del GITproyecto
-2_ Cambiar ( MAIN o MASTER {Nombre de la rama principal}) Tenemos que ejecutar " git congfig --global init.defaultBranch nombre_cualqueira", luego borrar la carpeta oculta y ejecutar " git init "
+2_ Cambiar ( MAIN o MASTER {Nombre de la rama principal}) Tenemos que ejecutar " git congfig --global init.defaultBranch nombre_cualqueira",
+luego borrar la carpeta oculta y ejecutar " git init "
 3_ Usuario ( git config --global user.name "nombre" ) (--global puede ir o no)
 4_ Email ( git config --global user.email "email" ) (--global puede ir o no)
 5_Comando para asociar editores de texto a GIT ( git config --global core.editor "code --wait" o "ruta/ejecutableDelEditor --wait")
@@ -17,7 +18,7 @@ No hay que estar en la rama que estamos eliminando, siempre desde otra. La MAIN 
 11_ Fusionar ramas, para ello antes hay que estar posicionado en la rama que recibe los cambios o en la MAIN.
 comando ( git merge "nombre-rama") vamos a fusionar desde MAIN la rama que elegimos, lo que va a hacer es agregar todo lo que tiene la rama a la rama MAIN
 12_ Mostrar commit en una sola linea ( git log --oneline )
-13_ Para fucuionar ramas en conflictos, podemos elegir desde el editor qué parte vamos a agregar
+13_ Para fusionar ramas en conflictos, podemos elegir desde el editor qué parte vamos a agregar
 puede ser una sola, o las dos, ademas agreando y quitando, podemos ponerle uno arriba de otro según combinemos
 Luego vamos a la consola y ponemos ( git --continue ) para hacer un commit normal
 14_Para subir un commit a GitHug ( git push origin main )
